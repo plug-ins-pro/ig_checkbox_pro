@@ -1,0 +1,34 @@
+{
+  "name" : "IG Checkbox Pro",
+  "version" : "20.1",
+  "description" : "A highly customizable checkbox item in your Interactive Grid. It can have up to three states: Null value, selected value, and unselected value. The appearance can be a normal HTML checkbox or any Font APEX icon.",
+  "keywords" : ["checkbox","interactive grid"],
+  "homepage" : "https://www.plug-ins-pro.com/",
+  "bugs" : {
+    "url" : "https://github.com/plug-ins-pro/ig_checkbox_pro/issues",
+    "email" : "support@plug-ins-pro.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "United Codes",
+    "email" : "info@plug-ins-pro.com",
+    "url" : "https://www.united-codes.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plug-ins-pro/ig_checkbox_pro"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x"],
+    "apex" : {
+      "versions" : ["19.2.0", "20.1.0"],
+      "plugin" : {
+        "internalName" : "UNITEDCODES_IG_CHECKBOX",
+        "type" : "item",
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ig_checkbox_pro/home",
+        "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/530/files/static/v12/ig-home.gif"
+      }
+    }
+  }
+}
